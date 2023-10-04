@@ -1,0 +1,229 @@
+/* styles.css */
+
+/* Header styling */
+body{
+    margin: 0px;
+}
+header {
+    background-color: #092642; /* Background color for the header */
+    color: #ffffff; /* Text color for header elements */
+    padding: 10px 0; /* Add padding to the top and bottom of the header */
+    display: flex; /* Make the header a flex container */
+    justify-content: space-between; /* Distribute elements evenly horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+/* Logo styling */
+.logo img {
+    margin-left: 20px;
+    height: 80px; /* Set the height of the logo */
+    border-radius: 50%;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style-type: none; /* Remove bullet points from list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display menu items as a horizontal list */
+}
+
+nav li {
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: hsl(0, 40%, 51%); /* Text color for links */
+    font-weight: bold; /* Make links bold */
+}
+
+/* Contact information styling */
+.contact-info {
+    text-align: right; /* Align contact info to the right */
+}
+
+.contact-info p {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+
+/* Styling for font icons */
+.contact-info i {
+    margin-right: 5px; /* Add spacing between icons and text */
+    font-size: 16px; /* Adjust the icon size */
+}
+
+/* Change icon colors as needed */
+.contact-info i.fa-phone {
+    color: #33cc33; /* Green color for phone icon */
+}
+
+.contact-info i.fa-envelope {
+    color: #ff9900; /* Orange color for email icon */
+}
+
+.contact-info i.fa-map-marker-alt {
+    color: #ff3300; /* Red color for location icon */
+}
+/* Footer styling */
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for footer elements */
+    padding: 20px 0; /* Add padding to the top and bottom of the footer */
+    text-align: center; /* Center-align the content within the footer */
+}
+
+/* Social Media Links styling */
+.social-media {
+    margin-bottom: 20px; /* Add space between the social media links and copyright information */
+}
+
+.social-media h3 {
+    font-size: 20px; /* Increase the font size for the "Connect With Us" heading */
+    margin-bottom: 10px; /* Add space below the heading */
+}
+
+.social-media ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+}
+
+.social-media li {
+    display: inline; /* Display social media icons horizontally */
+    margin-right: 10px; /* Add spacing between icons */
+}
+
+.social-media a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+    font-size: 24px; /* Increase the icon size */
+}
+
+/* Copyright Information styling */
+.copyright p {
+    font-size: 14px; /* Reduce the font size for copyright text */
+    margin: 5px 0; /* Add space around the copyright text */
+}
+
+.copyright a {
+    color: #fff; /* Text color for the privacy policy link */
+    text-decoration: underline; /* Add underline to the link */
+}
+/* Academics Section */
+#academics {
+   
+    padding: 20px;
+}
+
+#academics h2 {
+    color: #004080;
+}
+
+/* Faculty Section */
+#faculty {
+    
+    padding: 20px;
+}
+
+#faculty h2 {
+    color: #004080;
+}
+
+/* Academic Achievements Section */
+#achievements {
+    
+    padding: 20px;
+}
+
+#achievements h2 {
+    color: #004080;
+}
+
+/* Admissions Section */
+#admissions {
+    
+    padding: 20px;
+}
+
+#admissions h2 {
+    color: #004080;
+}
+
+/* Application Forms Section */
+#application {
+   
+    padding: 20px;
+}
+
+#application h2 {
+    color: #004080;
+}
+
+#application ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#application li {
+    margin: 10px 0;
+}
+
+#application a {
+    text-decoration: none;
+    color: #004080;
+}
+
+#application a:hover {
+    text-decoration: underline;
+}
+
+/* Tuition and Fees Section */
+#tuition {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#tuition h2 {
+    color: #004080;
+}
+
+#tuition table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#tuition th,
+#tuition td {
+    border: 1px solid #004080;
+    padding: 8px;
+    text-align: left;
+}
+
+#tuition th {
+   
+   
+}
+
+#tuition tbody tr:nth-child(even) {
+  
+}
+/* Apply background image to the entire body */
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/011/844/757/small/back-to-school-background-with-doodle-light-bulb-and-rocket-pencil-launching-to-space-online-learning-and-web-page-template-digital-education-concept-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust as needed */
+    background-attachment: fixed; /* Ensures the image remains fixed */
+}
+
+/* Style the content container */
+.main {
+    background-color: rgba(255, 255, 255, 0.5); /* Add a semi-transparent white background to content */
+    padding: 20px; /* Add spacing around the content */
+    margin: 0 auto; /* Center the content horizontally */
+    max-width: 100%; /* Adjust the maximum width as needed */
+    text-align: center;
+    justify-content: center;
+}
+
+/* Add additional styles for the content sections (Academics, Faculty, etc.) as previously shown */
