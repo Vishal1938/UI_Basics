@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="Homestyle.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="correct-integrity-value-here" crossorigin="anonymous">
 
 
 </head>
 <body>
+    <div class="container">
     <header>
         <div class="logo">
             <a href="index.html">
@@ -24,88 +25,22 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-        <!-- Contact information styling -->
-<div class="contact-info">
-    <p><i class="fas fa-phone"></i> <a href="tel:123-456-7890"><h3 style="color: white; margin: 0px;" >123-456-7890</h3></a></p>
-    <p><i class="fas fa-envelope"></i> <a href="mailto:info@school.com"><h3 style="color: white;margin: 0px;">info@school.com</h3></a></p>
-    <p><i class="fas fa-map-marker-alt"></i> <a href="https://maps.google.com/maps?q=School+Address" target="_blank"><h3 style="color: white;margin: 0px;">Adress</h3></a></p>
-</div>
-
+        <div id="buttons">
+            <button><i class="bi bi-unlock"></i> Sign In</button>
+            <button>Register</button>
+        </div>
     </header>
-    <!-- Rest of your website content goes here -->
     <div class="main">
-    <section id="academics">
-        <h2>Academics</h2>
-        <p>At School Name, we are committed to providing high-quality academic programs that empower students to achieve their full potential.</p>
-        <p>Our curriculum is designed to foster critical thinking, creativity, and a love for learning.</p>
-        <p>We believe in a student-centered teaching philosophy that encourages active engagement in the learning process.</p>
-    </section>
-    <section id="faculty">
-        <h2>Faculty</h2>
-        <p>Our dedicated faculty members are experts in their fields and passionate about education.</p>
-        <p>They hold advanced degrees and bring years of teaching and research experience to the classroom.</p>
-        <!-- Highlight individual faculty members and their qualifications here -->
-    </section>
-    <section id="achievements">
-        <h2>Academic Achievements</h2>
-        <p>Our students consistently excel academically and have received numerous awards and recognition.</p>
-        <p>We take pride in their achievements and celebrate their success.</p>
-        <!-- Showcase specific achievements, awards, or honors here -->
-    </section>
-    <section id="admissions">
-        <h2>Admissions</h2>
-        <p>Joining our school community is easy. We have a straightforward admission process to welcome new students.</p>
-        <p>Learn about our requirements, deadlines, and how to apply below.</p>
-        <!-- Explain the admission process here -->
-    </section>
-    <section id="application">
-        <h2>Application Forms</h2>
-        <p>You can download our application forms below:</p>
-        <ul>
-            <li><a href="application-form.pdf" target="_blank">Download Application Form</a></li>
-            <!-- Provide links to different application forms if applicable -->
-        </ul>
-    </section>
-    <section id="tuition">
-        <h2>Tuition and Fees</h2>
-        <p>Investing in your child's education is a valuable decision. Below are our tuition costs for the academic year:</p>
-        <table>
-            <thead>
-                <tr>
-                    <th>Grade Level</th>
-                    <th>Tuition</th>
-                    <th>Admission Fee</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Kindergarten</td>
-                    <td>$X,XXX</td>
-                    <td>$x,xxx</td>
-                </tr>
-                <!-- Add more grade levels and tuition amounts as needed -->
-            </tbody>
-        </table>
-        <p>We also offer scholarships and financial aid options to eligible students. Contact our admissions office for more information.</p>
-    </section>
+        <h2 id="login">Login</h2>
+        <form action="process_login.php" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+           <br/>
+            <button >Login</button>           
+        </form>
+        <h3>Already have an account</h3>
+        <a href="login.html">Login</a>
     </div>
-    <footer>        
-        <div class="social-media">
-            <h3>Connect With Us</h3>
-            <ul>
-                <li><a href="https://www.facebook.com/schoolname" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://twitter.com/schoolname" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.instagram.com/schoolname" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                <!-- Add more social media links/icons as needed -->
-            </ul>
-        </div>
-        
-         
-        <div class="copyright">
-            <p>&copy; 2023 School Name. All rights reserved.</p>
-            <p><a href="privacy-policy.html">Privacy Policy</a></p>
-        </div>
-    </footer>
-    
+    </div>
 </body>
 </html>

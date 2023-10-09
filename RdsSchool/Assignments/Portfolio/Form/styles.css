@@ -1,0 +1,55 @@
+/* styles.css */
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style error messages */
+input:invalid {
+    border-color: #f00;
+}
+
+input:invalid + label::after {
+    content: " (Invalid)";
+    color: #f00;
+}
+
+/* Hide the error message on valid input */
+input:valid + label::after {
+    content: "";
+}

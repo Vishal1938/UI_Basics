@@ -1,0 +1,58 @@
+.pricing-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-top: 50px;
+}
+
+.Basic_plan{
+    border: 1px solid black;
+    padding:20px 10px;
+    border-radius: 7px;
+    background-color: rgb(14, 57, 57);
+    text-align: center;
+    width:170px;
+}
+
+.Pro_plan{
+    border: 1px solid black;
+    padding: 20px 10px;
+    border-radius: 7px;
+    background-color: rgb(97, 76, 116);
+    text-align: center;
+    width:170px
+}
+
+.Premium_plan{
+    border: 1px solid black;
+    padding: 20px 10px;
+    border-radius: 7px;
+    background-color: rgb(100, 86, 7);
+    text-align: center;
+    width:180px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin: 10px 0;
+}
+
+.btn{
+    display: block;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 15px 35px;
+    transition:background-color 0.3s;
+    
+}

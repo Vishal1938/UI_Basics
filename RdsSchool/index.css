@@ -1,0 +1,95 @@
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    height: 20%;
+    background-color: #092642; /* Background color for the header */
+    color: #ffffff; /* Text color for header elements */
+    padding: 10px 0; /* Add padding to the top and bottom of the header */
+    display: flex; /* Make the header a flex container */
+    justify-content: space-between; /* Distribute elements evenly horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+/* Logo styling */
+.logo img {
+   
+    margin-left: 20px;
+    height: 80px; /* Set the height of the logo */
+    border-radius: 50%;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style-type: none; /* Remove bullet points from list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display menu items as a horizontal list */
+}
+
+nav li {
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: hsl(0, 40%, 51%); /* Text color for links */
+    font-weight: bold; /* Make links bold */
+}
+#buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+button {
+    background-color: hsl(0, 40%, 51%);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+/* Apply background image to the entire body */
+body {
+    
+    
+    display: flex;
+   
+    flex-direction: column;
+}
+
+/* Style the content container */
+.main {
+   width: 100vw;
+   height: 80%;
+    /* Add a semi-transparent white background to content */
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/011/844/757/small/back-to-school-background-with-doodle-light-bulb-and-rocket-pencil-launching-to-space-online-learning-and-web-page-template-digital-education-concept-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust as needed */
+    background-attachment: fixed; /* Ensures the image remains fixed */
+    padding: 20px; /* Add spacing around the content */
+     /* Center the content horizontally */
+/* Adjust the maximum width as needed */
+    text-align: center;
+    justify-content: center;
+}
+
+/* Add additional styles for the content sections (Academics, Faculty, etc.) as previously shown */
+input {
+    height: 80%;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#login {
+    margin-bottom: 5px;
+    color: rgba(246, 238, 238, 0.7);
+}

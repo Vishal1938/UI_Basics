@@ -40,6 +40,7 @@ nav a {
 
 /* Contact information styling */
 .contact-info {
+    margin: 0px;
     text-align: right; /* Align contact info to the right */
 }
 
