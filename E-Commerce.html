@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      #header {
+        width: 100%;
+        height: 70px;
+        background-color: black;
+        color: white;
+        display: flex;
+      }
+      #title {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #navitems {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      a {
+        color: cornsilk;
+        text-decoration: none;
+        margin-right: 50px;
+      }
+      * {
+        margin: 0;
+      }
+      .prodCategory{
+        width:100vw;
+        height:150px;
+        background-color: whitesmoke;
+        
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 50px;
+      }
+
+      .container {
+        width: 1100px;
+        height: 400px;
+        /* box-shadow: 0 0 10px black; */
+        display: grid;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 200px 200px;
+        gap: 30px;
+      }
+      #discription{
+        width: 900px;
+        height: 900px;
+        /* box-shadow: 0 0 10px black; */
+        display: grid;
+        margin: 100px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 30px;
+        
+      }
+      .banner{
+        width:1400px;
+        height: 300px;
+        background-color: aqua;
+        margin: 50px auto;
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/2dc3aafcc8afbaf8.jpg?q=20");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .box1 {
+        grid-column: 1/3;
+        background-image: url("https://media.istockphoto.com/id/1293366109/photo/this-one-match-perfect-with-me.jpg?s=612x612&w=0&k=20&c=wJ6yYbRrDfdmoViuQkX39s2z_0lCiNQYgEtLU--0EbY=");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-row: 1/3;
+        background-color: red;
+      }
+      h1 {
+        margin-bottom: 25px;
+        margin-top: 100px;
+        font-size: 52px;
+      }
+      .box1 p {
+        margin-bottom: 35px;
+      }
+      .shadow {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+      }
+      button {
+        padding: 13px 30px;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: white;
+        font-size: 15px;
+        border: 1px solid white;
+      }
+      .box2 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+
+        background-image: url("https://img.freepik.com/premium-photo/beautiful-young-women-summer-fashion-concept_564719-215.jpg");
+        background-size: 400px;
+        background-position: center;
+      }
+      .box3 {
+        grid-column: 3 /4;
+        grid-row: 2/3;
+        background-image: url("https://media.istockphoto.com/id/1063212632/photo/beautiful-mixes-race-woman-holding-shopping-bags-and-smiling.jpg?s=612x612&w=0&k=20&c=BglEfZGByZgOD2Err7wENGRRzwjQ0bKi1q87u3krN3g=");
+        background-size: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .desc1 button{
+        background-color: black;
+        color: white;
+        padding:13px 30px;
+        font-size: 15px;
+        margin: 20px auto;
+
+      }
+
+      .desc2 button{
+        background-color: black;
+        color: white;
+        padding:13px 30px;
+        font-size: 15px;
+        margin: 20px auto;
+
+      }
+
+      .desc3 button{
+        background-color: black;
+        color: white;
+        padding:13px 30px;
+        font-size: 15px;
+        margin: 20px auto;
+
+      }
+
+</style>
+</head>
+  <body>
+    <div id="header">
+      <div id="title">
+        <h2>E-Commerce Application</h2>
+      </div>
+
+      <div id="navitems">
+        <a href="portfolio.html">Home</a>
+        <a href="Netflix.html">Profile</a>
+        <a href="Card.html">Users</a>
+        <a href="Resume.html">My cart</a>
+      </div>
+    </div>
+    <div class="prodCategory">
+        <div class="prod1">
+            <img src="https://rukminim1.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png?q=100"
+           />
+            <h5>Grocery</h5>
+        </div>
+        <div class="prod2">
+            <img src="https://rukminim1.flixcart.com/flap/80/80/image/22fddf3c7da4c4f4.png?q=100"/>
+            <h5>Mobiles</h5>
+        </div>
+        <div class="prod3">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/0d75b34f7d8fbcb3.png?q=100"/>
+            <h5>Fashion</h5>
+        </div>
+        <div class="prod4">
+            <img src="https://rukminim1.flixcart.com/flap/80/80/image/69c6589653afdb9a.png?q=100"/>
+            <h5>Electronics</h5>
+        </div>
+        <div class="prod5">
+            <img src="https://rukminim1.flixcart.com/flap/80/80/image/ab7e2b022a4587dd.jpg?q=100"/>
+            <h5>Furnictures</h5>
+        </div>
+        <div class="prod5">
+            <img src="https://rukminim1.flixcart.com/flap/80/80/image/0ff199d1bd27eb98.png?q=100"/>
+            <h5>Appliances</h5>
+        </div>
+
+        <div class="prod6">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/05d708653beff580.png?q=100"/>
+            <h5>Two Wheelers</h5>
+        </div>
+
+        <div class="prod7">
+            <img src="https://rukminim1.flixcart.com/flap/80/80/image/71050627a56b4693.png?q=100"/>
+            <h5>Travels</h5>
+        </div>
+
+        <div class="prod8">
+            <img src="https://rukminim1.flixcart.com/flap/80/80/image/dff3f7adcf3a90c6.png?q=100"/>
+            <h5>Toys</h5>
+        </div>
+    </div>
+    <div class="banner">
+
+
+    </div>
+    <div class="container">
+      <div class="box1">
+        <div class="shadow">
+          <h1>Men's Fashion</h1>
+          <div style="width: 500px; margin: 0px auto">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Provident, odio commodi laborum ducimus natus libero sapiente
+            </p>
+          </div>
+          <button>Shop Now</button>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="shadow">          
+          <h2>Women Fashion</h2>
+        </div>
+      </div>
+      <div class="box3">
+        <div class="shadow">   
+          <h2>Women Fashion</h2>
+        </div>
+      </div>
+    </div>
+    <div id="discription">
+      <div class="item1">
+        <img src="https://www.apple.com/newsroom/images/product/mac/standard/Apple-MacBook-Pro-M2-Pro-and-M2-Max-hero-230117.jpg.og.jpg?202310101641"
+       width="100%"
+       height="100%"
+        />
+
+      </div>
+      <div class="desc1">
+        <h2>MackBook Pro</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea dolore asperiores ex. Dicta minima accusantium perspiciatis ex, harum ipsa blanditiis quisquam eveniet reprehenderit rem! Dolore in vero, sit molestiae asperiores non quod modi quas suscipit voluptate veritatis hic quibusdam qui repellendus accusantium error debitis atque numquam impedit rem animi dignissimos deserunt. Qui esse error mollitia voluptate, illum possimus nemo repudiandae unde deserunt reprehenderit sed tenetur quaerat, hic quo? Odit reprehenderit, a aspernatur soluta atque labore debitis officia quas, ratione illo similique beatae incidunt pariatur nisi enim libero sequi non! Laboriosam magni consequuntur ad perspiciatis necessitatibus harum voluptates nam adipisci.</p>
+        <button>Product Details</button>
+      </div>
+      <div class="desc2">
+        <h2>Samsung </h2>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, fugiat hic quo fuga dignissimos suscipit dicta error eligendi. Dolores nesciunt voluptates nemo maxime assumenda repellat, aperiam deleniti vitae blanditiis ad amet doloribus eligendi voluptatibus sequi similique ut aut excepturi veritatis provident cupiditate quo soluta nihil odit. Veritatis, voluptatem libero! Iure modi, autem dolore officiis in tempore nesciunt iste architecto recusandae velit pariatur itaque distinctio tenetur odit nobis eligendi quo asperiores ipsa minus facilis excepturi quae. Ullam, ipsa exercitationem cum beatae id, aut laboriosam expedita nisi error similique eaque reprehenderit commodi velit iure, magnam totam eveniet inventore placeat magni hic. Dolorum.</p>
+        <button >Product Details</button>
+      </div>
+      <div class="item2">
+        <img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2Ftc3VuZyUyMHBob25lfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+         />
+      </div>
+      <div class="item3">
+        <img src="https://support.hp.com/doc-images/863/c06955147.png"
+        widht="100%"
+        height="100%"
+        />
+      </div>
+      <div class="desc3">
+        <h2>HP Probook</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eum nobis modi reprehenderit atque voluptatem doloremque. Quo, doloremque commodi architecto velit perferendis cum modi cupiditate ad illo, in nihil esse ratione, nulla cumque perspiciatis delectus consequatur praesentium necessitatibus animi deserunt quam nostrum harum! Placeat aspernatur provident nostrum iure enim, aliquam illum blanditiis earum esse cum at dolores laudantium velit laboriosam dolore. Nulla laudantium architecto porro exercitationem nemo, cupiditate atque minima dicta, aperiam provident quisquam fuga suscipit incidunt facere temporibus nostrum, quos veniam rem repellendus? Inventore vitae quidem, aperiam omnis iste, quia voluptatem expedita commodi aspernatur rerum deserunt dolorum, alias reprehenderit.</p>
+        <button>Product Details</button>
+      </div>
+    </div>
+    
+  </body>
+</html>
