@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .conversation {
+            height: 80vh;
+            background-color: aqua;
+        }
+
+
+        .chat-input-form {
+            display: flex;
+            margin-top: 10px;
+            height: 20vh;
+            background-color: aliceblue;
+        }
+
+        .chat-input {
+            width: 90vw;
+            padding: 10px;
+            border: 2px solid #111010;
+            border-radius: 5px;
+            margin: 7px;
+        }
+
+        .send-button {
+
+            padding: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="conversation">
+            
+        </div>
+
+        <form className="chat-input-form">
+            <input type="text" placeholder="Type your message..." className="chat-input" />
+            <button type="submit" className="send-button">
+            </button>
+        </form>
+
+    </div>
+</body>
+
+</html>
